@@ -38,7 +38,7 @@ app.use(
 
 app.use(
   cors({
-    origin: "https://idea-tree-pizza-frontend.vercel.app", // 指定origin为前端地址
+    origin: "https://idea-tree-pizza-frontend.vercel.app", 
     credentials: true,
     allowMethods: ["GET", "POST", "DELETE", "PUT"],
     maxAge: 86400,
