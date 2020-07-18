@@ -38,7 +38,7 @@ app.use(
 
 app.use(
   cors({
-    origin: "https://idea-tree-pizza-frontend.vercel.app", 
+    origin: "*", 
     credentials: true,
     allowMethods: ["GET", "POST", "DELETE", "PUT"],
     maxAge: 86400,
